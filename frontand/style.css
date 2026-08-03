@@ -1,4 +1,4 @@
-:root{
+  :root{
     --maroon:#7A1128;
     --maroon-deep:#500B1B;
     --navy:#12233D;
@@ -372,7 +372,10 @@
     padding:20px 16px;
     transition: border-color .25s ease, transform .3s ease, box-shadow .3s ease;
     position:relative;
+    display:block;
+    text-decoration:none;
   }
+  a.svc-card{ cursor:pointer; }
   .svc-card:hover{
     border-color:var(--maroon);
     transform:translateY(-6px);
